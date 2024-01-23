@@ -1,0 +1,198 @@
+repo_name: ramzimalhas/Auto-GPT
+report_id: 56c292a3ed5751d3edf5634adebc6eea
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T06:57:24+00:00'
+requested_by: Torantulino
+provider: github
+branch: master
+detected_tools_count: 15
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT
+  detection_source: Repo Metadata
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: BillSchumacher
+  last_updated_on: 2023-04-07 23:13:18.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/.github/workflows/auto_format.yml
+  detection_source: ".github/workflows/auto_format.yml"
+  last_updated_by: Toran Bruce Richards
+  last_updated_on: 2023-04-02 10:00:50.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Torantulino
+  last_updated_on: 2023-03-29 02:11:36.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Jonathan S. Rouach
+  last_updated_on: 2023-04-08 12:20:10.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.2
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Torantulino
+  last_updated_on: 2023-03-29 02:11:36.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: douglas
+  last_updated_on: 2023-04-04 00:31:01.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Toran Bruce Richards
+  last_updated_on: 2023-04-03 10:23:54.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  version: 0.4.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Torantulino
+  last_updated_on: 2023-03-29 02:11:36.000000000 Z
+- name: gTTS
+  description: GTTS
+  package_url: https://pypi.org/project/gTTS
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Master Blood
+  last_updated_on: 2023-04-04 05:38:01.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: James C. Palmer
+  last_updated_on: 2023-04-02 10:11:04.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: douglas
+  last_updated_on: 2023-04-04 00:31:01.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/ramzimalhas/Auto-GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Toran Bruce Richards
+  last_updated_on: 2023-04-03 10:23:54.000000000 Z
